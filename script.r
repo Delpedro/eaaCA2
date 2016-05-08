@@ -21,9 +21,8 @@ loadtestData <- read.table("results.dat", header=TRUE);
 
 
 par(col.lab="red");
-par(col.main="blue")
-pch=19;
-lty=3;
+par(col.main="blue");
+
 
 # Graph No.1 - Ui(Utilisation) vs. N(# of concurrent users)
 
